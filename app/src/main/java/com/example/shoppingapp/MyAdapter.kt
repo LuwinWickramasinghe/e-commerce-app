@@ -39,7 +39,7 @@ class MyAdapter(val context: Activity, val productList: List<Product>) :
 
     class MyViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var image: ShapeableImageView = itemView.findViewById(R.id.productImage)
-        var title: TextView = itemView.findViewById(R.id.tvName)
+        var title: TextView = itemView.findViewById(R.id.productName)
 
     }
 
